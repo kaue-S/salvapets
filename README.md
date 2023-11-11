@@ -24,5 +24,4 @@
 - CSS
 - JavaScript
 - PHP
-
 - MySQL
