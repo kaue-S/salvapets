@@ -1,3 +1,6 @@
+<?php
+    
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,6 +10,6 @@
     <title>Página inicial</title>
 </head>
 <body>
-    
+    <h1></h1>
 </body>
 </html>

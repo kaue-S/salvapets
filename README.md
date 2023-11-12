@@ -4,7 +4,6 @@
 
 ## Requisitos para inicializar o Salvapets
 
-- aixar o banco de dados na pasta (materiais).
 - Composer instalado.
 - Composer.json configurado com a referência de namespace e pasta das classes.
 - Execução via CLI do comando `composer dumpautoload`.
@@ -22,6 +21,7 @@
 
 - HTML
 - CSS
+- Bootstrap
 - JavaScript
 - PHP
 - MySQL
