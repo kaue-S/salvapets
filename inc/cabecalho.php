@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <span>Salvapets</span>
+            <span class="logo">Salvapets</span>
             <ul>
                 <li>Cães</li>
                 <li>Gatos</li>

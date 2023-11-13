@@ -3,9 +3,9 @@
  O SalvaPets é um projeto didático que simula uma plataforma online para a doação responsável de pets. O site permite que os ONGs cadastrem cães e gatos que estão disponíveis para adoção, bem como permitindo que interessados encontrem e adotem esses animais.
 
 ## Requisitos para inicializar o Salvapets
-
+- baixar o banco de dados na pasta materials
 - Composer instalado.
-- Composer.json configurado com a referência de namespace e pasta das classes.
+- Composer.json configurado com a referência de namespace e pasta das classes (src).
 - Execução via CLI do comando `composer dumpautoload`.
 
 ### funcionalidades
