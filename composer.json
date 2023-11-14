@@ -1,15 +1,7 @@
 {
-    "name": "kaues/salvapets",
-    "autoload": {
-        "psr-4": {
-            "Salvapets\\": "src/"
+    "autoload" : {
+        "psr-4" : {
+            "Salvapets\\" : "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "kaue-S",
-            "email": "kauesilva38@hotmail.com"
-        }
-    ],
-    "require": {}
+    }
 }
