@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Cabeçalho</title>
 </head>
 <body>
     <header>
-        <nav>
-            <span class="logo">Salvapets</span>
+        <nav class="menu">
+            <span class="logo"><a href="index.php"> <img src="../imagens/pet1.png" alt="">  Salvapets</a></span>
             <ul>
-                <li>Cães</li>
-                <li>Gatos</li>
-                <li>Ajuda</li>
-                <li>Quem somos</li>
-                <li>Contato</li>
+                <li class="links-menu"><a href="">Cães</a></li>
+                <li class="links-menu"><a href="">Gatos</a></li>
+                <li class="links-menu"><a href="">Ajuda</a></li>
+                <li class="links-menu"><a href="">Quem somos</a></li>
+                <li class="links-menu"><a href="">Contato</a></li>
             </ul>
-            <button>Entrar</button>
+            <button class="bi bi-box-arrow-in-right botoes"> Entrar</button>
         </nav>
     </header>
 </body>

@@ -3,9 +3,9 @@
     use PDO, Exception;
     
     abstract class Banco {
-        private static string $servidor = "db4free.net";
-        private static string $usuario = "salvapets1";
-        private static string $senha = "admin123";
+        private static string $servidor = "localhost";
+        private static string $usuario = "root";
+        private static string $senha = "";
         private static string $banco = "salvapets";
         private static PDO $conexao; 
     
