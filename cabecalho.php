@@ -1,6 +1,7 @@
 <?php
-    require_once "../vendor/autoload.php";
-    
+ob_start();
+    require_once "vendor/autoload.php"
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -8,14 +9,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Cabeçalho</title>
 </head>
 <body>
     <header>
         <nav class="menu">
-            <span class="logotipo"><a href="index.php"> <img src="../imagens/pet1.png" alt="">  Salvapets</a></span>
+            <span class="logotipo"><a href="index.php"> <img src="imagens/pet1.png" alt="">  Salvapets</a></span>
             <ul>
                 <li class="links-menu"><a href="">Cães</a></li>
                 <li class="links-menu"><a href="">Gatos</a></li>
@@ -36,7 +36,7 @@
                 </div>  
 
                 <div class="logo">
-                    <h1>user</h1>
+                    <span>user</span>
                 </div>
 
                 <div class="menu-items">

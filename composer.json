@@ -1,7 +1,8 @@
 {
-    "autoload" : {
-        "psr-4" : {
-            "Salvapets\\" : "src/"
+    "autoload": {
+        "psr-4": {
+            "Salvapets\\": "src/"
         }
     }
+
 }
